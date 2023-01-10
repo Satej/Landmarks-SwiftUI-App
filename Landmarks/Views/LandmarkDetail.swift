@@ -1,15 +1,15 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  Landmarks
 //
-//  Created by Satej Sahu on 09/01/23.
+//  Created by Satej Sahu on 10/01/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
-        VStack {
+       VStack {
             MapView()
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
@@ -44,8 +44,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }
