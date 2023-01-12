@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43138912970287100264C64 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43138902970287100264C64 /* HexagonParameters.swift */; };
+		C431389329702A7A00264C64 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C431389229702A7A00264C64 /* BadgeBackground.swift */; };
 		C449D695296E531D003E2D7F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449D694296E531D003E2D7F /* FavoriteButton.swift */; };
 		C47076C7296D0B5900F7BDC5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = C47076C6296D0B5900F7BDC5 /* landmarkData.json */; };
 		C47076C9296D0B7000F7BDC5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47076C8296D0B7000F7BDC5 /* Landmark.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C43138902970287100264C64 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		C431389229702A7A00264C64 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		C449D694296E531D003E2D7F /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		C47076C6296D0B5900F7BDC5 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		C47076C8296D0B7000F7BDC5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				C47076CD296D0E0300F7BDC5 /* Model */,
 				C47076CC296D0DE000F7BDC5 /* Views */,
 				C4D2F3B8296BB3E60072948E /* LandmarksApp.swift */,
+				C43138902970287100264C64 /* HexagonParameters.swift */,
+				C431389229702A7A00264C64 /* BadgeBackground.swift */,
 				C4D2F3BC296BB3E70072948E /* Assets.xcassets */,
 				C4D2F3BE296BB3E70072948E /* Preview Content */,
 			);
@@ -209,8 +215,10 @@
 				C4D2F3C9296BB8BD0072948E /* MapView.swift in Sources */,
 				C4D2F3B9296BB3E60072948E /* LandmarksApp.swift in Sources */,
 				C449D695296E531D003E2D7F /* FavoriteButton.swift in Sources */,
+				C43138912970287100264C64 /* HexagonParameters.swift in Sources */,
 				C4D2F3C7296BB7AD0072948E /* CircleImage.swift in Sources */,
 				C47076D4296D124C00F7BDC5 /* LandmarkDetail.swift in Sources */,
+				C431389329702A7A00264C64 /* BadgeBackground.swift in Sources */,
 				C47076C9296D0B7000F7BDC5 /* Landmark.swift in Sources */,
 				C47076D0296D0E8A00F7BDC5 /* LandmarkRow.swift in Sources */,
 				C47076CB296D0D5800F7BDC5 /* ModelData.swift in Sources */,
