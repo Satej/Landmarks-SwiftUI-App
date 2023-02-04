@@ -1,15 +1,16 @@
 //
 //  ContentView.swift
-//  WatchLandmarks Watch App
+//  MacLandmarks
 //
-//  Created by Satej Sahu on 22/01/23.
+//  Created by Satej Sahu on 04/02/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LandmarkList()
+        LandmarksList()
+            .frame(minWidth: 700, minHeight: 300)
     }
 }
 
